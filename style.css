@@ -24,6 +24,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 58rem;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card-text{
@@ -132,7 +134,8 @@ img{
         justify-content: center;
     }
 
-    .container{
+    .card{
         padding: 1.5em;
     }
+
 }
